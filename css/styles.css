@@ -1,0 +1,613 @@
+/*
+    Theme Name: Bethany
+    Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+body {
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden; 
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.section-padding
+{
+	padding: 90px 0px;
+    background: #f8f8f8;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Lato', sans-serif;
+}
+/**media Queries**/
+.navbar-default {
+    background-color: transparent;
+
+}
+.main-header
+{
+	background: url(../img/banner.jpeg) no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+.bg-color
+{
+	background-color: RGBA(0, 0, 0, 0.41);
+    min-height: 700px;
+}
+
+
+
+#logo
+{
+   padding: 0px 0px 500px 0px;
+}
+
+.nav > li > a {
+    padding: 0px;
+}
+.navbar-brand
+{
+	padding: : 0px;
+	height: inherit;
+	font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #000000;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f8f8f8;
+    font-size: 18px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	color: #f8f8f8;
+}
+
+.navbar-fixed-top {
+    padding: 0px 5px 12px 0px;
+    transition: all 0.4s;
+}
+
+.top-nav-collapse {
+    background: rgba(0,0,0,0.8);
+    padding-top: 2px 0;
+}
+
+
+.wrapper
+{
+	padding: 120px 0px 130px;
+}
+.top-title
+{
+	z-index: 15;
+	font-size: 70px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 100px;
+	letter-spacing: 3px;
+	opacity: 1;
+	text-transform: uppercase;
+}
+.title
+{
+	font-size: 123px;
+	font-weight: 700;
+	color:#f8f8f8;
+	line-height: 20px;
+	letter-spacing: 4px;
+	opacity: 1;
+	text-transform: uppercase;
+	padding: -10px 10px;
+}
+.btn-submit
+{
+    background: #19070B;
+    border: 0px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-weight: normal;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-top: 25px;
+    border: 2px solid  #000000;
+}
+
+.btn-submit:hover {
+    background: #fff;
+}
+/****/
+#cta-1
+{
+	padding: 40px 0px;
+    background: #f8f8f8;
+}
+.cta-info
+{
+	border: 3px solid #19070B;
+	padding: 40px 0px;
+}
+.cta-info h3
+{
+	font-size: 50px;
+    font-family: monospace;
+}
+.cta-info1
+{
+    border: 3px solid #19070B;
+}
+.cta-info1 h3
+{
+    font-size: 25px;
+    font-family: monospace;
+}
+.dec-tec
+{
+	font-size: 34px;
+}
+/****/
+#feature
+{
+	background-color: #f8f8f8;
+}
+.head-title
+{
+	color: #19070B;
+	font-size: 32px;
+	font-weight: 700;
+}
+.botm-line2{
+    background-color: #19070B;
+    width: 500px;
+    height: 3px;
+    display: inline-block;
+}
+.botm-line
+{
+	background-color: #19070B;
+	width: 34px;
+	height: 3px;
+	display: inline-block;
+}
+.section-title:hover .botm-line
+{
+	width: 70px;
+	/* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+p
+{
+	color: #000;
+}
+.icon {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.icon i
+{
+	font-size: 35px;
+    color: #19070B;
+}
+.icon-text {
+    margin-left: 50px;
+    padding:0px 25px 25px 0px;
+}
+h3.txt-tl {
+    font-size: 24px;
+    line-height: 1.35;
+    color: #19070B;
+}
+/****/
+.parallax {
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center center;
+}
+.bg-image-2 {
+    background: url('../img/cta-banner.jpg') no-repeat center fixed;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section {
+    position: relative;
+    padding: 130px 0 67px 0;
+    display: block;
+}
+.cta-txt h3 {
+    
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #000;
+}
+.cta-txt p
+{
+	color: #000000;
+}
+/****/
+.portfolio-box
+{
+	margin-bottom: 5px;
+}
+.padding-right-zero
+{
+	padding: 5px;
+}
+#contact
+{
+	background-color: #f8f8f8;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block;
+}
+
+.black
+{
+	color: #000 !important;
+	font-weight: 600;
+}
+.btn-send
+{
+	border-radius: 3px;
+	color: #f8f8f8;
+	background-color: #19070b;
+}
+a, a:hover
+{
+	color: #d7ffef;
+}
+.cont-title
+{
+	font-size: 24px;
+	padding:15px 0px;
+}
+.location-info p span {
+    display: inline-block;
+}
+.location-info p span {
+    width: 40px;
+    font-size: 24px;
+    color: ##19070b;
+    vertical-align: middle;
+}
+.location-info p {
+    margin-bottom: 5px;
+}
+.location-info p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #19070b;
+}
+.contact-icon-container {
+    position: absolute;
+    top: -38px;
+    right: 0;
+    padding-right: 20px;
+    font-size: 300px;
+    color: #000;
+    line-height: 300px;
+    -ms-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+/****/
+#footer
+{
+	background-color: #000000;
+	padding: 0px 150px;
+}
+.footer-copyright {
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+}
+.footer-social
+{
+	float: right;
+}
+.footer-social a {
+    font-size: 30px;
+    color: #fff;
+}
+.link-dec, .link-dec:hover{
+    color: #000;
+}
+/****/
+@media (min-width: 451px) and (max-width: 900px){
+    .section-title{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 20px) and (max-width: 450px){
+    .navbar-toggle:hover, .navbar-toggle{
+        background-color: #fff;
+        color: #000;
+    }
+    .navbar-toggle{
+        margin-top: 0px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.32);
+        color: #000;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+        background-color: rgba(255, 255, 255, 0.32);
+        color: #FFD34E;
+    }
+    .top-title{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .sub-title{
+        font-size: 24px;
+    }
+    .footer-copyright {
+    text-align: center;
+    }
+    .padding-right-zero{
+        padding-right: 15px;
+    }
+    .section-title{
+        margin-bottom: 15px;
+    }
+    .cta-txt h3{
+        font-size: 28px;
+    }
+    body{
+        font-size: 14px;
+    }
+    h3.txt-tl{
+        font-size: 20px;
+    }
+}
+/****/
+
+.contact {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+
+#contact-us .heading {
+  padding-top: 95px;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  min-height: 180px;
+  resize:none;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  padding-left:70px;
+  font-weight: 300;
+}
+
+ul.address {
+  font-size: 19px;
+ color: #19070b;
+}
+
+.contact-info ul li {
+  margin-bottom: 8px;
+}
+
+.contact-info ul li a {
+  color: #contact {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+
+.form-control {
+    color: #19070B;
+  border-color: rgba(255,255,255,.1);
+  height: 50px;
+  border-radius: 2;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  min-height: 180px;
+  resize:none;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  padding-left:70px;
+  font-weight: 300;
+}
+
+ul.address {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-info ul li {
+  margin-bottom: 8px;
+}
+
+.contact-info ul li a {
+  color: #19070B;
+}
+
+.btn-submit {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  color: #fff;
+  border:0;
+  margin-top: 40px;
+}
+
+#footer {
+  color:#fff;
+}
+
+.footer-top {
+  position: relative;
+  padding:30px 0
+}
+
+#footer .footer-bottom {
+  background-color: #fff;
+  padding: 20px 0 10px;
+}
+
+#footer .footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#footer .social-icons {
+  margin-top: 15px;
+}
+
+#footer .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .social-icons ul li a {
+  background-color: rgba(0,0,0,.2);
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+#footer .social-icons ul li a:hover {
+  color: #fff
+}
+
+#footer .social-icons ul li a.envelope:hover {
+  background-color: #CECB26;
+}
+
+#footer .social-icons ul li a.facebook:hover {
+  background-color: #3b5999;
+}
+#footer .social-icons ul li a.twitter:hover {
+  background-color: #2ac6f7;
+}
+#footer .social-icons ul li a.dribbble:hover {
+  background-color: #ff5b92;
+}
+#footer .social-icons ul li a.linkedin:hover {
+  background-color: #036dc0;
+}
+#footer .social-icons ul li a.tumblr:hover {
+  background-color: #ff6b00;
+}
+
+.btn-submit {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  border:0;
+  margin-top: 40px;
+}
