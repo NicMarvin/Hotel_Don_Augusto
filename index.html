@@ -15,6 +15,22 @@
   <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="shortcut icon" href="img/favicon.ico">
+ <!--Plugin alertify-->
+  <script src="js/alertify.min.js" ></script>
+  <link rel="stylesheet" href="css/alertify.bootstrap.css">
+  <link rel="stylesheet" href="css/alertify.core.css">
+  <link rel="stylesheet" href="css/alertify.default.css">
+
+
+  <script>
+    $(document).ready(function()){
+      $("bntEnviar").click(function(){
+        alertify.alert("Mensaje enviado")
+      })
+
+    });
+  </script>
+
 </head>
 
 <body>
@@ -181,6 +197,7 @@
         <div class="col-md-8">
           <div class="cta-txt">
             <h3>Estamos Ubicados:</h3>
+            <hr class="botm-line">
             <p> Oficinas Claro 5C al Sur, Salida al Rama en Santo Tomas Chontales</p>
           </div>
         </div>
@@ -197,6 +214,7 @@
         <div class="col-md-12 col-sm-12">
           <div class="section-title">
             <h2 class="head-title">Fotos del Hotel Don Augusto</h2>
+                        <hr class="botm-line">
           </div>
           <hr>
         </div>
@@ -271,6 +289,14 @@
       <div class="container">
         <div class="row">
         </div>
+         <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title">
+            <h2 class="head-title">Contactenos</h2>
+            <hr class="botm-line">
+          </div>
+          <hr>
+        </div>
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
           <div class="row">
             <div class="col-sm-6">
@@ -278,23 +304,23 @@
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Escriba su nombre" required="required">
+                      <input type="text" name="nombre" class="form-control" placeholder="Introduce tu Nombre" required="required">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Escriba su correo" required="required">
+                      <input type="telefono" name="telefono" class="form-control" placeholder="Introduce tu Telefono" pattern="[0-9]{8}" required="required">
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Asunto" required="required">
+                  <input type="email" name="correo" class="form-control" placeholder="Introduce tu Correo Electronico" Correo" required="required">
                 </div>
                 <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Escriba algo para nosotros" required="required"></textarea>
+                  <textarea name="mensaje" id="message" class="form-control" rows="4" placeholder="Escribenos" required="required"></textarea>
                 </div>                        
                 <div class="form-group">
-                  <button type="submit" class="btn-submit">Enviar</button>
+                  <button id="bntEnviar" type="submit" class="btn-submit">Enviar</button>
                 </div>
               </form> 
             </div>
@@ -306,13 +332,21 @@
                   <li><i class="fa fa-phone"></i> <span> Celular:</span> 58800443 </li>
                   <li><i class="fa fa-envelope"></i> <span> Email:</span"> augustohotel2018@gmail.com</a></li>
                 </ul>
-              </div>                            
+              </div>
+              <hr>                           
             </div>
+          <div class="row"> 
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title">
+            <h2 class="head-title">Dejanos tu comentario</h2>
+            <hr class="botm-line">
+          </div>
+          <hr>
+        </div>
             <div class="fb-comments" data-href="https://hoteldonaugusto.000webhostapp.com/" data-width="100%" data-numposts="5"></div>       
           </div>
         </div>
       </div>
-
     </div> 
   </section><!--/#contact-->
   <!---->
